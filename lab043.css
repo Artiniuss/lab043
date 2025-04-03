@@ -1,0 +1,89 @@
+/*
+
+filename: [lab04]
+
+author: [Artin Foroughshams]
+
+created: [27/03/2025]
+
+last modified: [27/03/2025]
+
+description: [html files it refers to lab043]
+
+*/
+
+/* assigns the colour #2F4F4F to the entire site*/
+
+*{ 
+    color: #2F4F4F; 
+ }
+
+selector { 
+    property1: value1; 
+    property2: value2;
+}
+  
+ /* Makes Heading 1 into a purple and bold heading*/
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+/* Makes h2 into the colour rig(0,128,128) and changes its font size*/
+h2 { 
+    color: rgb(0,128,128); 
+    font-size: 1.5em;  
+    }
+
+/*Gives the entire document the font of calibri or sans serif, makes the footer into italic characters*/
+* { font-family: calibri, sans-serif; }    
+aside, footer { font-style: italic; }  
+h1, h2, h3 { font-family: calibri, sans-serif; }    
+
+table {border: 1px solid black; }
+
+/*gives td, tr, and th black coloured borders*/
+td, tr, th {
+    border: 1px solid black;   
+}
+
+/*Makes the headingg stay to the right as it aligns it to the right side*/
+.headingg {text-align: right;}
+
+/* Makes the dot points for the list square*/
+ol ul{
+    list-style-type : square; 
+   }
+
+   #images {
+    text-align : center;  
+    }
+
+
+     /*Changes headingthrees colour to red*/
+   #headingthree {
+    color: red;
+   }
+
+   /* Makes special characters such as $%#@ into the colour orange and bold*/
+   .special {
+    color: darkorange;
+    font-weight:bold;
+   }  
+/*When u hover over the icon it disappears*/
+   aside:hover {
+    display: none;
+ }       
+
+    nav a{
+        text-decoration: none;
+        padding:0.2em 0.6em;
+        border: 4px solid #ccc;
+       }
+    
+       /* When u hover over the icons the icons background colour turns blue and the border turns dark blue*/
+       nav a:hover{
+        background-color: lightblue;
+        border-color: darkblue;
+       }
